@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
+import Card from "../Card";
 
 export default function index() {
-    return (
-        <div>
-            This is where the cards go!
-        </div>
-    )
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }
-

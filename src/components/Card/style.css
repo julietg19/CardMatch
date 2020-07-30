@@ -1,0 +1,19 @@
+.container {
+  display: inline-block;
+}
+
+.front {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.back {
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
